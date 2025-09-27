@@ -19,13 +19,13 @@ O projeto utiliza uma abordagem *lightweight* (leve), focando na velocidade e si
 O frontend é composto por dois arquivos principais que o servidor Flask serve:
 
 ```
-wineflow-api/
+frontend-api/
 ├── templates/
 │   └── index.html      # A página principal que define a estrutura e o layout.
 └── static/
-    ├── Scripts.js      # Contém toda a lógica JavaScript para interagir com a API.
+    ├── scripts.js      # Contém toda a lógica JavaScript para interagir com a API.
     ├── style.css       # Estilos personalizados (incluindo classes de animação como `.fade-in`).
-    └── wine_banner.jpg # Imagem de banner/ilustração.
+    └── vinho.jpg # Imagem de banner/ilustração.
 ```
 
 ## 🛠️ Funcionalidades e Interação com a API
